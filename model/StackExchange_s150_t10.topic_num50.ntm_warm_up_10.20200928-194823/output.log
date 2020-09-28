@@ -1,0 +1,175 @@
+09/28/2020 19:48:23 [INFO] train_main: Parameters:
+09/28/2020 19:48:23 [INFO] train_main: trial    :    False
+09/28/2020 19:48:23 [INFO] train_main: joint_train    :    False
+09/28/2020 19:48:23 [INFO] train_main: joint_train_strategy    :    p_1_joint
+09/28/2020 19:48:23 [INFO] train_main: iterate_train_ntm    :    False
+09/28/2020 19:48:23 [INFO] train_main: p_seq2seq_e    :    1
+09/28/2020 19:48:23 [INFO] train_main: add_two_loss    :    False
+09/28/2020 19:48:23 [INFO] train_main: save_each_epoch    :    False
+09/28/2020 19:48:23 [INFO] train_main: use_topic_represent    :    False
+09/28/2020 19:48:23 [INFO] train_main: topic_num    :    50
+09/28/2020 19:48:23 [INFO] train_main: topic_type    :    g
+09/28/2020 19:48:23 [INFO] train_main: topic_dec    :    False
+09/28/2020 19:48:23 [INFO] train_main: topic_attn    :    False
+09/28/2020 19:48:23 [INFO] train_main: topic_copy    :    False
+09/28/2020 19:48:23 [INFO] train_main: topic_attn_in    :    False
+09/28/2020 19:48:23 [INFO] train_main: load_pretrain_ntm    :    False
+09/28/2020 19:48:23 [INFO] train_main: only_train_ntm    :    True
+09/28/2020 19:48:23 [INFO] train_main: check_pt_ntm_model_path    :    None
+09/28/2020 19:48:23 [INFO] train_main: ntm_warm_up_epochs    :    10
+09/28/2020 19:48:23 [INFO] train_main: target_sparsity    :    0.85
+09/28/2020 19:48:23 [INFO] train_main: data_dir    :    None
+09/28/2020 19:48:23 [INFO] train_main: vocab_size    :    50000
+09/28/2020 19:48:23 [INFO] train_main: bow_vocab    :    10000
+09/28/2020 19:48:23 [INFO] train_main: max_src_len    :    100
+09/28/2020 19:48:23 [INFO] train_main: max_trg_len    :    10
+09/28/2020 19:48:23 [INFO] train_main: max_unk_words    :    1000
+09/28/2020 19:48:23 [INFO] train_main: words_min_frequency    :    0
+09/28/2020 19:48:23 [INFO] train_main: dynamic_dict    :    True
+09/28/2020 19:48:23 [INFO] train_main: seed    :    9527
+09/28/2020 19:48:23 [INFO] train_main: word_vec_size    :    150
+09/28/2020 19:48:23 [INFO] train_main: share_embeddings    :    True
+09/28/2020 19:48:23 [INFO] train_main: encoder_type    :    rnn
+09/28/2020 19:48:23 [INFO] train_main: decoder_type    :    rnn
+09/28/2020 19:48:23 [INFO] train_main: enc_layers    :    2
+09/28/2020 19:48:23 [INFO] train_main: dec_layers    :    1
+09/28/2020 19:48:23 [INFO] train_main: encoder_size    :    150
+09/28/2020 19:48:23 [INFO] train_main: decoder_size    :    300
+09/28/2020 19:48:23 [INFO] train_main: dropout    :    0.1
+09/28/2020 19:48:23 [INFO] train_main: rnn_type    :    GRU
+09/28/2020 19:48:23 [INFO] train_main: bidirectional    :    True
+09/28/2020 19:48:23 [INFO] train_main: bridge    :    copy
+09/28/2020 19:48:23 [INFO] train_main: attn_mode    :    concat
+09/28/2020 19:48:23 [INFO] train_main: copy_attention    :    False
+09/28/2020 19:48:23 [INFO] train_main: coverage_attn    :    False
+09/28/2020 19:48:23 [INFO] train_main: review_attn    :    False
+09/28/2020 19:48:23 [INFO] train_main: lambda_coverage    :    1
+09/28/2020 19:48:23 [INFO] train_main: coverage_loss    :    False
+09/28/2020 19:48:23 [INFO] train_main: orthogonal_loss    :    False
+09/28/2020 19:48:23 [INFO] train_main: lambda_orthogonal    :    0.03
+09/28/2020 19:48:23 [INFO] train_main: lambda_target_encoder    :    0.03
+09/28/2020 19:48:23 [INFO] train_main: data_tag    :    StackExchange_s150_t10
+09/28/2020 19:48:23 [INFO] train_main: data    :    processed_data/StackExchange_s150_t10/
+09/28/2020 19:48:23 [INFO] train_main: vocab    :    processed_data/StackExchange_s150_t10/
+09/28/2020 19:48:23 [INFO] train_main: custom_data_filename_suffix    :    False
+09/28/2020 19:48:23 [INFO] train_main: custom_vocab_filename_suffix    :    False
+09/28/2020 19:48:23 [INFO] train_main: vocab_filename_suffix    :    
+09/28/2020 19:48:23 [INFO] train_main: data_filename_suffix    :    
+09/28/2020 19:48:23 [INFO] train_main: save_model    :    model
+09/28/2020 19:48:23 [INFO] train_main: train_from    :    
+09/28/2020 19:48:23 [INFO] train_main: gpuid    :    0
+09/28/2020 19:48:23 [INFO] train_main: epochs    :    10
+09/28/2020 19:48:23 [INFO] train_main: start_epoch    :    1
+09/28/2020 19:48:23 [INFO] train_main: param_init    :    0.1
+09/28/2020 19:48:23 [INFO] train_main: pre_word_vecs_enc    :    None
+09/28/2020 19:48:23 [INFO] train_main: pre_word_vecs_dec    :    None
+09/28/2020 19:48:23 [INFO] train_main: fix_word_vecs_enc    :    False
+09/28/2020 19:48:23 [INFO] train_main: fix_word_vecs_dec    :    False
+09/28/2020 19:48:23 [INFO] train_main: batch_size    :    64
+09/28/2020 19:48:23 [INFO] train_main: batch_workers    :    4
+09/28/2020 19:48:23 [INFO] train_main: optim    :    adam
+09/28/2020 19:48:23 [INFO] train_main: max_grad_norm    :    1
+09/28/2020 19:48:23 [INFO] train_main: truncated_decoder    :    0
+09/28/2020 19:48:23 [INFO] train_main: loss_normalization    :    tokens
+09/28/2020 19:48:23 [INFO] train_main: train_ml    :    False
+09/28/2020 19:48:23 [INFO] train_main: train_rl    :    False
+09/28/2020 19:48:23 [INFO] train_main: max_sample_length    :    6
+09/28/2020 19:48:23 [INFO] train_main: max_length    :    6
+09/28/2020 19:48:23 [INFO] train_main: topk    :    10
+09/28/2020 19:48:23 [INFO] train_main: reward_type    :    0
+09/28/2020 19:48:23 [INFO] train_main: match_type    :    exact
+09/28/2020 19:48:23 [INFO] train_main: pretrained_model    :    
+09/28/2020 19:48:23 [INFO] train_main: reward_shaping    :    False
+09/28/2020 19:48:23 [INFO] train_main: baseline    :    self
+09/28/2020 19:48:23 [INFO] train_main: mc_rollouts    :    False
+09/28/2020 19:48:23 [INFO] train_main: num_rollouts    :    3
+09/28/2020 19:48:23 [INFO] train_main: delimiter_type    :    0
+09/28/2020 19:48:23 [INFO] train_main: one2many    :    False
+09/28/2020 19:48:23 [INFO] train_main: one2many_mode    :    0
+09/28/2020 19:48:23 [INFO] train_main: num_predictions    :    10
+09/28/2020 19:48:23 [INFO] train_main: init_perturb_std    :    0
+09/28/2020 19:48:23 [INFO] train_main: final_perturb_std    :    0
+09/28/2020 19:48:23 [INFO] train_main: perturb_decay_mode    :    1
+09/28/2020 19:48:23 [INFO] train_main: perturb_decay_factor    :    0.0001
+09/28/2020 19:48:23 [INFO] train_main: perturb_baseline    :    False
+09/28/2020 19:48:23 [INFO] train_main: regularization_type    :    0
+09/28/2020 19:48:23 [INFO] train_main: regularization_factor    :    0.0
+09/28/2020 19:48:23 [INFO] train_main: replace_unk    :    False
+09/28/2020 19:48:23 [INFO] train_main: remove_src_eos    :    False
+09/28/2020 19:48:23 [INFO] train_main: must_teacher_forcing    :    False
+09/28/2020 19:48:23 [INFO] train_main: teacher_forcing_ratio    :    0
+09/28/2020 19:48:23 [INFO] train_main: scheduled_sampling    :    False
+09/28/2020 19:48:23 [INFO] train_main: scheduled_sampling_batches    :    10000
+09/28/2020 19:48:23 [INFO] train_main: learning_rate    :    0.001
+09/28/2020 19:48:23 [INFO] train_main: learning_rate_rl    :    5e-05
+09/28/2020 19:48:23 [INFO] train_main: learning_rate_decay_rl    :    False
+09/28/2020 19:48:23 [INFO] train_main: learning_rate_decay    :    0.5
+09/28/2020 19:48:23 [INFO] train_main: start_decay_at    :    8
+09/28/2020 19:48:23 [INFO] train_main: start_checkpoint_at    :    2
+09/28/2020 19:48:23 [INFO] train_main: decay_method    :    
+09/28/2020 19:48:23 [INFO] train_main: warmup_steps    :    4000
+09/28/2020 19:48:23 [INFO] train_main: checkpoint_interval    :    200
+09/28/2020 19:48:23 [INFO] train_main: early_stop_rl    :    False
+09/28/2020 19:48:23 [INFO] train_main: early_stop_tolerance    :    1
+09/28/2020 19:48:23 [INFO] train_main: timemark    :    20200928-194823
+09/28/2020 19:48:23 [INFO] train_main: report_every    :    10
+09/28/2020 19:48:23 [INFO] train_main: exp    :    StackExchange_s150_t10.topic_num50.ntm_warm_up_10
+09/28/2020 19:48:23 [INFO] train_main: exp_path    :    exp/%s.%s
+09/28/2020 19:48:23 [INFO] train_main: model_path    :    model/StackExchange_s150_t10.topic_num50.ntm_warm_up_10.20200928-194823
+09/28/2020 19:48:23 [INFO] train_main: delimiter_word    :    <sep>
+09/28/2020 19:48:23 [INFO] train_main: input_feeding    :    False
+09/28/2020 19:48:23 [INFO] train_main: copy_input_feeding    :    False
+09/28/2020 19:48:23 [INFO] train_main: device    :    cuda:0
+09/28/2020 19:48:23 [INFO] data_loader: Loading vocab from disk: processed_data/StackExchange_s150_t10/
+09/28/2020 19:49:04 [INFO] data_loader: #(vocab)=87279
+09/28/2020 19:49:04 [INFO] data_loader: #(vocab used)=50000
+09/28/2020 19:49:04 [INFO] data_loader: #(bow dictionary size)=10000
+09/28/2020 19:49:04 [INFO] data_loader: Loading train and validate data from 'processed_data/StackExchange_s150_t10/'
+09/28/2020 19:49:08 [INFO] data_loader: #(train data size: #(batch)=1505
+09/28/2020 19:49:09 [INFO] data_loader: #(valid data size: #(batch)=188
+09/28/2020 19:49:09 [INFO] train_main: Time for loading the data: 46.4
+09/28/2020 19:49:26 [INFO] train_model: ======================  Start Training  =========================
+09/28/2020 19:50:17 [INFO] train_model: ====>Train epoch: 1 Average loss: 213.0344
+09/28/2020 19:50:18 [INFO] train_model: Overall sparsity = 0.007, l1 strength = 0.00100
+09/28/2020 19:50:18 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:50:22 [INFO] train_model: ====> Test epoch: 1 Average loss:  194.9204
+09/28/2020 19:51:10 [INFO] train_model: ====>Train epoch: 2 Average loss: 197.4240
+09/28/2020 19:51:10 [INFO] train_model: Overall sparsity = 0.006, l1 strength = 0.00179
+09/28/2020 19:51:10 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:51:14 [INFO] train_model: ====> Test epoch: 2 Average loss:  185.8142
+09/28/2020 19:52:03 [INFO] train_model: ====>Train epoch: 3 Average loss: 190.5317
+09/28/2020 19:52:04 [INFO] train_model: Overall sparsity = 0.005, l1 strength = 0.00322
+09/28/2020 19:52:04 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:52:07 [INFO] train_model: ====> Test epoch: 3 Average loss:  181.6442
+09/28/2020 19:52:53 [INFO] train_model: ====>Train epoch: 4 Average loss: 186.4497
+09/28/2020 19:52:53 [INFO] train_model: Overall sparsity = 0.005, l1 strength = 0.00578
+09/28/2020 19:52:53 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:52:58 [INFO] train_model: ====> Test epoch: 4 Average loss:  179.4943
+09/28/2020 19:53:46 [INFO] train_model: ====>Train epoch: 5 Average loss: 183.7231
+09/28/2020 19:53:46 [INFO] train_model: Overall sparsity = 0.004, l1 strength = 0.01038
+09/28/2020 19:53:46 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:53:51 [INFO] train_model: ====> Test epoch: 5 Average loss:  177.7562
+09/28/2020 19:54:41 [INFO] train_model: ====>Train epoch: 6 Average loss: 181.8447
+09/28/2020 19:54:41 [INFO] train_model: Overall sparsity = 0.004, l1 strength = 0.01866
+09/28/2020 19:54:41 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:54:45 [INFO] train_model: ====> Test epoch: 6 Average loss:  176.5685
+09/28/2020 19:55:31 [INFO] train_model: ====>Train epoch: 7 Average loss: 180.4414
+09/28/2020 19:55:31 [INFO] train_model: Overall sparsity = 0.004, l1 strength = 0.03355
+09/28/2020 19:55:31 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:55:35 [INFO] train_model: ====> Test epoch: 7 Average loss:  175.8573
+09/28/2020 19:56:21 [INFO] train_model: ====>Train epoch: 8 Average loss: 179.4311
+09/28/2020 19:56:21 [INFO] train_model: Overall sparsity = 0.004, l1 strength = 0.06033
+09/28/2020 19:56:21 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:56:25 [INFO] train_model: ====> Test epoch: 8 Average loss:  175.5205
+09/28/2020 19:57:11 [INFO] train_model: ====>Train epoch: 9 Average loss: 178.5618
+09/28/2020 19:57:11 [INFO] train_model: Overall sparsity = 0.004, l1 strength = 0.10848
+09/28/2020 19:57:11 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:57:15 [INFO] train_model: ====> Test epoch: 9 Average loss:  175.1462
+09/28/2020 19:57:59 [INFO] train_model: ====>Train epoch: 10 Average loss: 177.9544
+09/28/2020 19:57:59 [INFO] train_model: Overall sparsity = 0.003, l1 strength = 0.19506
+09/28/2020 19:57:59 [INFO] train_model: Target sparsity = 0.850
+09/28/2020 19:58:04 [INFO] train_model: ====> Test epoch: 10 Average loss:  174.7917
+09/28/2020 19:58:04 [INFO] model: Writing to model/StackExchange_s150_t10.topic_num50.ntm_warm_up_10.20200928-194823/topwords_e10.txt
+09/28/2020 19:58:04 [INFO] train_model: 
+Saving warm up ntm model into model/StackExchange_s150_t10.topic_num50.ntm_warm_up_10.20200928-194823/e10.val_loss=174.792.sparsity=0.003.ntm_model
+09/28/2020 19:58:05 [INFO] train_main: Time for training: 535.2
